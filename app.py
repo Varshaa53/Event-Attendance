@@ -10,7 +10,13 @@ st.title("🎟 Event Attendance Prediction System")
 
 # ================== LOAD MODELS ==================
 model = joblib.load("linear_model.pkl")
+import zipfile
+import joblib
+
+with zipfile.ZipFile("rf_model.zip", "r") as zip_ref:
+    zip_ref.extractall(".")
 rf_model = joblib.load("rf_model.pkl")
+
 ohe = joblib.load("ohe_encoder.pkl")
 mms = joblib.load("scaler.pkl")
 
