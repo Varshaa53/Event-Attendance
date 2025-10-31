@@ -32,6 +32,7 @@ with col1:
     ["Tennis", "Basketball", "Cricket", "Rally", "Classical", "Badminton",
      "Women", "Vinayaka Chavithi", "Football", "WebSeries", "Movie",
      "Debate", "Rock", "Men"],
+   )
     venue_city = st.selectbox("Venue City", ["chennai", "hyderabad", "vijayawada", "bengaluru", "delhi"])
     season = st.selectbox("Season", ["summer", "winter", "autumn", "rainy"])
     weather = st.selectbox("Weather", ["sunny", "cloudy", "rainy", "windy"])
