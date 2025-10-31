@@ -27,7 +27,8 @@ col1, col2 = st.columns(2)
 
 with col1:
     event_type = st.selectbox("Event Type", ["sports", "concert", "festival", "traditional events", "pre-release"])
-    sub_event_type = st.text_input("Sub Event Type", "cricket")
+    sub_event_type = st.text_input("Sub Event Type", "Dussehra", ["Tennis", "Basketball", "Cricket", "Rally",
+       "Classical", "Badminton", "Women", "Vinayaka Chavithi", "Football", "WebSeries", "Movie", "Debate", "Rock", "Men"])
     venue_city = st.selectbox("Venue City", ["chennai", "hyderabad", "vijayawada", "bengaluru", "delhi"])
     season = st.selectbox("Season", ["summer", "winter", "autumn", "rainy"])
     weather = st.selectbox("Weather", ["sunny", "cloudy", "rainy", "windy"])
