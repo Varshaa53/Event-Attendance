@@ -31,7 +31,7 @@ with col1:
     "Sub Event Type",
     ["Tennis", "Basketball", "Cricket", "Rally", "Classical", "Badminton",
      "Women", "Vinayaka Chavithi", "Football", "WebSeries", "Movie",
-     "Debate", "Rock", "Men"],
+     "Debate", "Rock", "Men"]
    )
     venue_city = st.selectbox("Venue City", ["chennai", "hyderabad", "vijayawada", "bengaluru", "delhi"])
     season = st.selectbox("Season", ["summer", "winter", "autumn", "rainy"])
